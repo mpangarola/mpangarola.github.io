@@ -326,6 +326,15 @@ h2 {
   font-size: 1rem;
 }
 
+.pub-link.disabled {
+  color: var(--text-light);
+  cursor: not-allowed;
+}
+
+.pub-link.disabled:hover {
+  text-decoration: none;
+}
+
 /* Animations */
 @keyframes fadeIn {
   from {
